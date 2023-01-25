@@ -23,7 +23,7 @@
 
 
  .titulo1 {
-     margin-top: 15rem;
+     margin-top: 24rem;
 
  }
 
@@ -135,8 +135,8 @@
 
  .menu-navegacion {
      display: flex;
-    flex-direction: column;
-    align-items: center;
+     flex-direction: column;
+     align-items: center;
      background-color: #d55c5a;
      gap: 1rem;
  }
@@ -155,12 +155,13 @@
  }
 
  @media (min-width: 768px) {
-    .menu-navegacion{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-}
+     .menu-navegacion {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-evenly;
+
+     }
+ }
 
  .mapa {
      margin-top: 10rem;
