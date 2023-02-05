@@ -1,0 +1,103 @@
+html {
+    box-sizing: border-box;
+    font-size: 62, 5%;
+    margin: 0;
+    bottom: 0;
+}
+
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color:$color-opcional;
+}
+
+img {
+    @include sizes(20rem, 20rem);
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.logo {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    width: 200rem;
+    height: 12rem;
+}
+
+.titulo1 {
+    margin-top: $espaciado-big + 2rem;
+    font-size: 50px
+
+}
+
+/*Anidacion*/
+.menu-navegacion {
+    @include display-centrado;
+    align-items: center;
+    background-color: $color--principal;
+    gap: 1rem;
+    list-style: none;
+    font-style: italic;
+    font-size: 20px;
+    
+
+    li a{
+    transition: ease-in-out 0.2s;
+
+
+&:hover{
+    color: rgb(95, 86, 92);
+    background-color: rgb(191, 217, 221);
+    border-radius: 30%;
+    cursor: pointer;}
+
+}
+}
+
+@media (min-width: $tablet) {
+    .menu-navegacion {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    }
+}
+
+
+/*footer*/
+.logo-instagram {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.logos-footer {
+    display: flex;
+    gap: $espaciado-small;
+    margin-bottom: 1rem;
+}
+
+.mail {
+    display: flex;
+    gap: $espaciado-small;
+    margin-top: $margen-negativo;
+}
+
+#footer {
+    background: $color-footer;
+}
+
+.footer1 {
+    margin-top: $margen-negativo;
+    margin: 0;
+}
+
+.footer1 {
+    margin-top: $margen-negativo;
+}

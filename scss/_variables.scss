@@ -1,16 +1,20 @@
 /*Paleta de colores*/
 
-$color--principal: #F5918F;
+$color--principal: #ebd4cc;
 $color-secundario: #d55c5a;
-$color-footer: #ebd4cc;
+$color-footer:#F5918F;
 $color-adornos: #894242;
 $color-opcional: #514945;
 
 
 /*ESPACIADO*/
 
-$espaciado-grande: 2rem;
-
+$espaciado-big:25rem;
+$espaciado-grande: 20rem;
+$espaciado-medio: 10rem;
+$espaciado-semi: 5rem;
+$espaciado-small: 0.5rem;
+$margen-negativo: -1rem;
 
 /*FUENTES*/
 
@@ -19,4 +23,21 @@ $espaciado-grande: 2rem;
 /*RESOLUCIONES*/
 
 $tablet: 768px;
-$desktop: 992px
+$desktop: 992px;
+
+
+/*Mixins*/
+
+/*Con parametros*/
+
+@mixin sizes ($alto, $ancho){
+    width: $alto;
+    height: $ancho;
+}
+
+/*Sin parametros*/
+
+@mixin display-centrado{
+    display:flex;
+    flex-direction: column;
+}
