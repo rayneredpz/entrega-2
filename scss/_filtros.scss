@@ -2,15 +2,19 @@ body {
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     flex: 2;
-    background-color:$color--principal;
+    background-color: $color--principal;
     font-size: 16px;
 }
 
 
 
 .parrafo {
+    display: flex;
+    align-items: center;
     text-align: justify;
+   justify-content: center;
     margin-top: $espaciado-semi;
+
 }
 
 .parrafo-quienes {
@@ -44,7 +48,7 @@ body {
 }
 
 .img-1 {
- @include display-centrado;
+    @include display-centrado;
     align-items: center;
 }
 
@@ -147,10 +151,11 @@ footer {
 .img-transition1 {
     transition: all 1.5s;
 
-    &:hover{ transform: scale(1.5, 1.5);
-    cursor: pointer;
+    &:hover {
+        transform: scale(1.5, 1.5);
+        cursor: pointer;
 
-}
+    }
 
 }
 
@@ -175,8 +180,13 @@ footer {
 
 
 .tabla-new {
-    margin-top: $espaciado-big;
+    margin-top: $espaciado-big - 10rem;
 }
+
+.bs-btn-bg{
+    color: rgb(187, 27, 27);
+}
+
 
 form {
     border-style: outset;
@@ -190,6 +200,6 @@ form {
     align-items: center;
 }
 
-.mapa{
+.mapa {
     max-width: 100%;
 }

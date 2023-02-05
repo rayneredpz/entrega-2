@@ -112,7 +112,10 @@ body {
 }
 
 .parrafo {
+  display: flex;
+  align-items: center;
   text-align: justify;
+  justify-content: center;
   margin-top: 5rem;
 }
 
@@ -240,7 +243,11 @@ footer {
 }
 
 .tabla-new {
-  margin-top: 25rem;
+  margin-top: 15rem;
+}
+
+.bs-btn-bg {
+  color: rgb(187, 27, 27);
 }
 
 form {
