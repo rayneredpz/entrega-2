@@ -12,8 +12,27 @@ body {
     display: flex;
     align-items: center;
     text-align: justify;
-   justify-content: center;
+    justify-content: center;
     margin-top: $espaciado-semi;
+
+    .parrafo-raro {
+        margin-top: $espaciado-semi;
+    }
+
+}
+
+.listado-index {
+    @include display-centrado;
+    align-items: flex-start;
+    margin-top: $espaciado-semi;
+    gap: $espaciado-semi;
+
+}
+
+@media (min-width: $tablet) {
+    .listado-index {
+        flex-direction: row;
+    }
 
 }
 
@@ -24,28 +43,9 @@ body {
 }
 
 
-.parrafo-raro {
-    margin-top: $espaciado-semi;
-}
-
-
-.listado-index {
-    @include display-centrado;
-    align-items: flex-start;
-    margin-top: $espaciado-semi;
-    gap: $espaciado-semi;
-
-}
 
 
 
-
-@media (min-width: $tablet) {
-    .listado-index {
-        flex-direction: row;
-    }
-
-}
 
 .img-1 {
     @include display-centrado;
@@ -138,9 +138,6 @@ h4 {
 }
 
 
-footer {
-    margin-top: $espaciado-grande;
-}
 
 .img-index {
     margin-top: -0rem;
@@ -181,10 +178,6 @@ footer {
 
 .tabla-new {
     margin-top: $espaciado-big - 10rem;
-}
-
-.bs-btn-bg{
-    color: rgb(187, 27, 27);
 }
 
 

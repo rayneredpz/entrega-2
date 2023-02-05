@@ -73,34 +73,30 @@ img {
   }
 }
 /*footer*/
-.logo-instagram {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.logos-footer {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.mail {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: -1rem;
-}
-
 #footer {
   background: #F5918F;
+  margin-top: 25rem;
 }
-
-.footer1 {
+#footer .footer1 {
   margin-top: -1rem;
   margin: 0;
 }
-
-.footer1 {
+#footer .footer1 {
   margin-top: -1rem;
+}
+#footer .mail {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: -1rem;
+}
+#footer .logo-instagram {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#footer .logos-footer {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 body {
@@ -118,14 +114,7 @@ body {
   justify-content: center;
   margin-top: 5rem;
 }
-
-.parrafo-quienes {
-  display: flex;
-  text-align: justify;
-  margin: 5rem;
-}
-
-.parrafo-raro {
+.parrafo .parrafo-raro {
   margin-top: 5rem;
 }
 
@@ -142,6 +131,12 @@ body {
     flex-direction: row;
   }
 }
+.parrafo-quienes {
+  display: flex;
+  text-align: justify;
+  margin: 5rem;
+}
+
 .img-1 {
   display: flex;
   flex-direction: column;
@@ -209,10 +204,6 @@ h4 {
   color: rgb(61, 21, 99);
 }
 
-footer {
-  margin-top: 20rem;
-}
-
 .img-index {
   margin-top: 0rem;
 }
@@ -244,10 +235,6 @@ footer {
 
 .tabla-new {
   margin-top: 15rem;
-}
-
-.bs-btn-bg {
-  color: rgb(187, 27, 27);
 }
 
 form {
