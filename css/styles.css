@@ -36,11 +36,11 @@ img {
   position: relative;
   max-width: 100%;
   width: 200rem;
-  height: 12rem;
+  height: 15rem;
 }
 
 .titulo1 {
-  margin-top: 27rem;
+  margin-top: 29rem;
   font-size: 50px;
 }
 
@@ -75,7 +75,7 @@ img {
 /*footer*/
 #footer {
   background: #F5918F;
-  margin-top: 25rem;
+  margin-top: 27rem;
 }
 #footer .footer1 {
   margin-top: -1rem;
@@ -234,7 +234,7 @@ h4 {
 }
 
 .tabla-new {
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 
 form {
@@ -243,7 +243,6 @@ form {
 }
 
 .donde-estamos {
-  margin-top: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -177,7 +177,7 @@ h4 {
 
 
 .tabla-new {
-    margin-top: $espaciado-big - 10rem;
+    margin-top: $espaciado-big - 17rem;
 }
 
 
@@ -187,9 +187,7 @@ form {
 }
 
 .donde-estamos {
-    margin-top: $espaciado-big;
-    display: flex;
-    flex-direction: column;
+    @include display-centrado;
     align-items: center;
 }
 
