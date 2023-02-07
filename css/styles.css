@@ -158,19 +158,6 @@ body {
     flex-direction: row;
   }
 }
-.color-parrafo {
-  color: #1A1B25;
-}
-
-#section-parrafo2 {
-  font-size: 14px;
-}
-
-.tabla {
-  width: 385px;
-  height: 115px;
-}
-
 .mapa {
   margin-top: 10rem;
   margin-right: 20rem;
@@ -189,19 +176,14 @@ h2 {
   text-align: center;
 }
 
-.listaIndex {
-  list-style: disc;
-  font-style: normal;
-  color: #514945;
-}
-
 .listado-index {
   width: 100%;
   justify-content: space-evenly;
 }
-
-h4 {
-  color: rgb(61, 21, 99);
+.listado-index .listaIndex {
+  list-style: disc;
+  font-style: normal;
+  color: #514945;
 }
 
 .img-index {
@@ -209,20 +191,12 @@ h4 {
 }
 
 /*ANIMACIONES*/
-.img-transition1, .fotonails {
+.img-transition1, .galeria-fotos .fotonails {
   transition: all 1.5s;
 }
-.img-transition1:hover, .fotonails:hover {
+.img-transition1:hover, .galeria-fotos .fotonails:hover {
   transform: scale(1.5, 1.5);
   cursor: pointer;
-}
-
-.fotonails {
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 5rem;
-  height: 20rem;
-  width: 20rem;
 }
 
 .galeria-fotos {
@@ -231,6 +205,13 @@ h4 {
   max-width: 100%;
   margin-top: 10rem;
   gap: 2rem;
+}
+.galeria-fotos .fotonails {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  height: 20rem;
+  width: 20rem;
 }
 
 .tabla-new {
