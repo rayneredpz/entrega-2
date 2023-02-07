@@ -208,15 +208,6 @@ h2 {
   width: 20rem;
 }
 
-.tabla-new {
-  margin-top: 10rem;
-}
-
-form {
-  border-style: outset;
-  border-color: #d55c5a;
-}
-
 .donde-estamos {
   display: flex;
   flex-direction: column;
@@ -230,6 +221,15 @@ form {
 .btn-primary {
   background-color: #d55c5a;
   border-color: #d55c5a;
+}
+
+form {
+  border-style: outset;
+  border-color: #d55c5a;
+}
+
+.tabla-new {
+  margin-top: 10rem;
 }
 
 

@@ -2,3 +2,12 @@
     background-color: $color-secundario;
     border-color: $color-secundario;
 }
+
+form {
+    border-style: outset;
+    border-color: #d55c5a;
+}
+
+.tabla-new {
+    margin-top: $espaciado-big - 20rem;
+}

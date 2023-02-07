@@ -100,16 +100,6 @@ h2 {
 
 }
 
-.tabla-new {
-    margin-top: $espaciado-big - 20rem;
-}
-
-
-form {
-    border-style: outset;
-    border-color: #d55c5a;
-}
-
 .donde-estamos {
     @include display-centrado;
     align-items: center;
