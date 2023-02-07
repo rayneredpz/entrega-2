@@ -1,0 +1,25 @@
+.listado-index {
+  @include display-centrado;
+    align-items: center;
+    margin-top: $espaciado-semi;
+    gap: $espaciado-semi;
+    width: 100%;
+    justify-content: space-evenly;
+
+    .listaIndex {
+        list-style: disc;
+        font-style: normal;
+        color: #514945;
+    }
+}
+
+@media (min-width: $tablet) {
+    .listado-index {
+        flex-direction: row;
+    }
+
+}
+
+.img-index {
+    margin-top: -0rem;
+}

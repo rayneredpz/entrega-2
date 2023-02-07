@@ -21,32 +21,10 @@ body {
 
 }
 
-.listado-index {
-    @include display-centrado;
-    align-items: flex-start;
-    margin-top: $espaciado-semi;
-    gap: $espaciado-semi;
-
-}
-
-@media (min-width: $tablet) {
-    .listado-index {
-        flex-direction: row;
-    }
-
-}
-
 .parrafo-quienes {
     display: flex;
     text-align: justify;
     margin: $espaciado-semi;
-}
-
-
-
-.img-1 {
-    @include display-centrado;
-    align-items: center;
 }
 
 .quiene-fotos {
@@ -56,12 +34,13 @@ body {
 }
 
 
+.img-1 {
+    @include display-centrado;
+    align-items: center;
+}
+
 
 @media (min-width: $tablet) {
-    .listado-index {
-        flex-direction: row;
-    }
-
     .quiene-fotos {
         flex-direction: row;
     }
@@ -89,21 +68,6 @@ h2 {
     text-align: center;
 }
 
-.listado-index {
-
-    width: 100%;
-    justify-content: space-evenly;
-
-    .listaIndex {
-        list-style: disc;
-        font-style: normal;
-        color: #514945;
-    }
-}
-
-.img-index {
-    margin-top: -0rem;
-}
 
 
 /*ANIMACIONES*/
