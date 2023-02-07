@@ -227,6 +227,11 @@ form {
   max-width: 100%;
 }
 
+.btn-primary {
+  background-color: #d55c5a;
+  border-color: #d55c5a;
+}
+
 
 
 /*# sourceMappingURL=styles.css.map */
