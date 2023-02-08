@@ -47,12 +47,20 @@ body {
 }
 
 
-.mapa {
-    margin-top: $espaciado-medio;
-    margin-right: $espaciado-grande;
-    margin-left: $espaciado-grande;
+.mapa-flex {
+    display: flex;
+    justify-content: center;
 
+    .mapa {
+        max-width: 100%;
+        margin-top: $espaciado-medio;
+        margin-right: $espaciado-grande;
+        margin-left: $espaciado-grande;
+
+    }
 }
+
+
 
 
 .video-galeria {
@@ -108,4 +116,3 @@ h2 {
 .mapa {
     max-width: 100%;
 }
-
