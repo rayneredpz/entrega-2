@@ -33,8 +33,7 @@ body {
     align-items: center;
 }
 
-
-.img-1 {
+\pages\contacto.html .img-1 {
     @include display-centrado;
     align-items: center;
 }
@@ -92,16 +91,15 @@ h2 {
 
 .galeria-fotos {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 100%;
     margin-top: $espaciado-medio;
-    gap: 2rem;
+    gap: 5rem;
 
     .fotonails {
         @extend .img-transition1;
-        margin-right: 2rem;
-        margin-bottom: 2rem;
-        margin-left: $espaciado-semi;
+
         height: $espaciado-grande;
         width: $espaciado-grande;
     }
