@@ -33,7 +33,7 @@ body {
     align-items: center;
 }
 
-\pages\contacto.html .img-1 {
+.donde-estamos {
     @include display-centrado;
     align-items: center;
 }
@@ -61,12 +61,23 @@ body {
 
 
 
+.apartado-video {
+    margin-top: $espaciado-medio;
 
-.video-galeria {
-    display: flex;
-    justify-items: start;
-    justify-content: space-evenly;
+    .video {
+        max-width: 100%;
+    }
+
+    .video-galeria {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5rem;
+        margin-top: $espaciado-medio - 2rem;
+    }
+
 }
+
 
 
 h1,
@@ -93,7 +104,6 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 100%;
     margin-top: $espaciado-medio;
     gap: 5rem;
 
@@ -105,6 +115,8 @@ h2 {
     }
 
 }
+
+
 
 .donde-estamos {
     @include display-centrado;

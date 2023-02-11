@@ -32,10 +32,8 @@ img {
 }
 
 .logo {
-  width: 100%;
-  position: relative;
   max-width: 100%;
-  width: 200rem;
+  width: 150rem;
   height: 15rem;
 }
 
@@ -155,7 +153,7 @@ body {
   align-items: center;
 }
 
-pages\c ontacto.html .img-1 {
+.donde-estamos {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -177,10 +175,18 @@ pages\c ontacto.html .img-1 {
   margin-left: 20rem;
 }
 
-.video-galeria {
+.apartado-video {
+  margin-top: 10rem;
+}
+.apartado-video .video {
+  max-width: 100%;
+}
+.apartado-video .video-galeria {
   display: flex;
-  justify-items: start;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 8rem;
 }
 
 h1,
@@ -202,7 +208,6 @@ h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 100%;
   margin-top: 10rem;
   gap: 5rem;
 }
