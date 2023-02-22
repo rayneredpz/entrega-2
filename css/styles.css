@@ -143,12 +143,12 @@ body {
 .parrafo-quienes {
   display: flex;
   text-align: justify;
-  margin: 5rem;
 }
 
 .quiene-fotos {
   display: flex;
   flex-direction: column;
+  padding: 4rem;
   justify-content: space-around;
   align-items: center;
 }
@@ -191,6 +191,7 @@ body {
 
 h1,
 h2 {
+  margin-bottom: 4rem;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
